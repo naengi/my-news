@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>내 뉴스</title>
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand"><h1>내 뉴스</h1><span class="updated" id="updated"></span></div>
+      <nav class="bar countries" id="countries" role="tablist" aria-label="나라"></nav>
+    </div>
+    <div class="cats-band">
+      <div class="wrap"><nav class="bar cats" id="cats" role="tablist" aria-label="분야"></nav></div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="list" id="list"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

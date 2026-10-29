@@ -1,0 +1,15 @@
+{
+  "name": "my-news",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "serve": "npx --yes serve public"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^26.1.0",
+    "rss-parser": "^3.13.0"
+  }
+}
