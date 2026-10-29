@@ -154,7 +154,12 @@ const feedStatus = [];
 for (const feed of config.feeds) {
   try {
     const parsed = await parser.parseURL(feed.url);
-    for (const item of parsed.items.slice(0, config.perFeed)) {
+    const dateOf = (item) => new Date(item.isoDate || item.pubDate || 0).getTime();
+    // 최신순으로 정렬하고, 3일 지난 기사는 요약하지 않음
+    const items = parsed.items
+      .filter((item) => Date.now() - dateOf(item) < MAX_AGE_MS)
+      .sort((a, b) => dateOf(b) - dateOf(a));
+    for (const item of items.slice(0, config.perFeed)) {
       const link = item.link?.trim();
       if (!link || !item.title) continue;
       if (existing.has(link) || dupes.has(link)) continue; // 이미 요약했거나 중복으로 걸러낸 기사
@@ -169,7 +174,13 @@ for (const feed of config.feeds) {
       });
     }
     console.log(`✓ ${feed.source} ${feed.country}/${feed.category}`);
-    feedStatus.push({ ...feed, ok: true, items: parsed.items.length });
+    feedStatus.push({
+      ...feed,
+      ok: true,
+      items: parsed.items.length,
+      recent: items.length,
+      newest: items[0] ? new Date(dateOf(items[0])).toISOString() : null,
+    });
   } catch (err) {
     console.warn(`✗ ${feed.source} ${feed.url}: ${err.message}`);
     feedStatus.push({ ...feed, ok: false, error: err.message });
