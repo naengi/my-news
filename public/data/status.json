@@ -1,8 +1,8 @@
 {
- "at": "2026-10-29T15:08:00.313Z",
+ "at": "2026-10-29T15:09:45.195Z",
  "model": "claude-haiku-5-5",
- "summarized": 81,
- "tried": 81,
+ "summarized": 18,
+ "tried": 18,
  "failures": [],
  "feeds": [
   {
@@ -11,7 +11,9 @@
    "source": "연합뉴스",
    "url": "https://www.yna.co.kr/rss/economy.xml",
    "ok": true,
-   "items": 120
+   "items": 120,
+   "recent": 120,
+   "newest": "2026-10-29T13:38:28.000Z"
   },
   {
    "country": "kr",
@@ -19,7 +21,9 @@
    "source": "한겨레",
    "url": "https://www.hani.co.kr/rss/economy/",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "kr",
@@ -27,7 +31,9 @@
    "source": "매일경제",
    "url": "https://www.mk.co.kr/rss/30100041/",
    "ok": true,
-   "items": 50
+   "items": 50,
+   "recent": 50,
+   "newest": "2026-10-29T09:57:37.000Z"
   },
   {
    "country": "kr",
@@ -35,7 +41,9 @@
    "source": "연합뉴스",
    "url": "https://www.yna.co.kr/rss/market.xml",
    "ok": true,
-   "items": 120
+   "items": 120,
+   "recent": 120,
+   "newest": "2026-10-29T14:05:07.000Z"
   },
   {
    "country": "kr",
@@ -43,7 +51,9 @@
    "source": "매일경제",
    "url": "https://www.mk.co.kr/rss/50200011/",
    "ok": true,
-   "items": 50
+   "items": 50,
+   "recent": 50,
+   "newest": "2026-10-29T12:32:12.000Z"
   },
   {
    "country": "kr",
@@ -51,7 +61,9 @@
    "source": "연합뉴스",
    "url": "https://www.yna.co.kr/rss/politics.xml",
    "ok": true,
-   "items": 120
+   "items": 120,
+   "recent": 120,
+   "newest": "2026-10-29T14:17:44.000Z"
   },
   {
    "country": "kr",
@@ -59,7 +71,9 @@
    "source": "한겨레",
    "url": "https://www.hani.co.kr/rss/politics/",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "kr",
@@ -67,7 +81,9 @@
    "source": "연합뉴스",
    "url": "https://www.yna.co.kr/rss/international.xml",
    "ok": true,
-   "items": 120
+   "items": 120,
+   "recent": 120,
+   "newest": "2026-10-29T14:53:12.000Z"
   },
   {
    "country": "kr",
@@ -75,7 +91,9 @@
    "source": "연합뉴스",
    "url": "https://www.yna.co.kr/rss/industry.xml",
    "ok": true,
-   "items": 120
+   "items": 120,
+   "recent": 120,
+   "newest": "2026-10-29T11:39:07.000Z"
   },
   {
    "country": "kr",
@@ -83,7 +101,9 @@
    "source": "한겨레",
    "url": "https://www.hani.co.kr/rss/science/",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "kr",
@@ -91,7 +111,9 @@
    "source": "연합뉴스",
    "url": "https://www.yna.co.kr/rss/society.xml",
    "ok": true,
-   "items": 120
+   "items": 120,
+   "recent": 120,
+   "newest": "2026-10-29T14:58:58.000Z"
   },
   {
    "country": "kr",
@@ -99,7 +121,9 @@
    "source": "한겨레",
    "url": "https://www.hani.co.kr/rss/society/",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "us",
@@ -107,7 +131,9 @@
    "source": "NPR",
    "url": "https://feeds.npr.org/1006/rss.xml",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "recent": 8,
+   "newest": "2026-10-29T13:05:03.000Z"
   },
   {
    "country": "us",
@@ -115,7 +141,9 @@
    "source": "The New York Times",
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
    "ok": true,
-   "items": 50
+   "items": 50,
+   "recent": 49,
+   "newest": "2026-10-29T14:43:31.000Z"
   },
   {
    "country": "us",
@@ -123,7 +151,9 @@
    "source": "CNBC",
    "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 10,
+   "newest": "2026-10-29T14:53:06.000Z"
   },
   {
    "country": "us",
@@ -131,7 +161,9 @@
    "source": "CNBC",
    "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "us",
@@ -139,7 +171,9 @@
    "source": "MarketWatch",
    "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
    "ok": true,
-   "items": 30
+   "items": 30,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "us",
@@ -147,7 +181,9 @@
    "source": "NPR",
    "url": "https://feeds.npr.org/1014/rss.xml",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "recent": 10,
+   "newest": "2026-10-29T11:34:30.000Z"
   },
   {
    "country": "us",
@@ -155,7 +191,9 @@
    "source": "The New York Times",
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
    "ok": true,
-   "items": 23
+   "items": 23,
+   "recent": 23,
+   "newest": "2026-10-29T15:00:05.000Z"
   },
   {
    "country": "us",
@@ -163,7 +201,9 @@
    "source": "NPR",
    "url": "https://feeds.npr.org/1004/rss.xml",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "recent": 10,
+   "newest": "2026-10-29T14:52:11.000Z"
   },
   {
    "country": "us",
@@ -171,7 +211,9 @@
    "source": "NPR",
    "url": "https://feeds.npr.org/1019/rss.xml",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "recent": 3,
+   "newest": "2026-10-28T09:00:00.000Z"
   },
   {
    "country": "us",
@@ -179,7 +221,9 @@
    "source": "The Verge",
    "url": "https://www.theverge.com/rss/index.xml",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "recent": 10,
+   "newest": "2026-10-29T14:39:37.000Z"
   },
   {
    "country": "us",
@@ -187,7 +231,9 @@
    "source": "NPR",
    "url": "https://feeds.npr.org/1003/rss.xml",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "recent": 10,
+   "newest": "2026-10-29T13:05:03.000Z"
   },
   {
    "country": "uk",
@@ -195,7 +241,9 @@
    "source": "BBC",
    "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
    "ok": true,
-   "items": 42
+   "items": 42,
+   "recent": 27,
+   "newest": "2026-10-29T15:02:31.000Z"
   },
   {
    "country": "uk",
@@ -203,7 +251,9 @@
    "source": "The Guardian",
    "url": "https://www.theguardian.com/uk/business/rss",
    "ok": true,
-   "items": 46
+   "items": 46,
+   "recent": 45,
+   "newest": "2026-10-29T15:02:48.000Z"
   },
   {
    "country": "uk",
@@ -211,7 +261,9 @@
    "source": "The Guardian",
    "url": "https://www.theguardian.com/business/stock-markets/rss",
    "ok": true,
-   "items": 20
+   "items": 20,
+   "recent": 8,
+   "newest": "2026-10-29T14:53:58.000Z"
   },
   {
    "country": "uk",
@@ -219,7 +271,9 @@
    "source": "BBC",
    "url": "https://feeds.bbci.co.uk/news/politics/rss.xml",
    "ok": true,
-   "items": 61
+   "items": 61,
+   "recent": 35,
+   "newest": "2026-10-29T14:57:56.000Z"
   },
   {
    "country": "uk",
@@ -227,7 +281,9 @@
    "source": "The Guardian",
    "url": "https://www.theguardian.com/politics/rss",
    "ok": true,
-   "items": 21
+   "items": 21,
+   "recent": 21,
+   "newest": "2026-10-29T14:59:14.000Z"
   },
   {
    "country": "uk",
@@ -235,7 +291,9 @@
    "source": "BBC",
    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
    "ok": true,
-   "items": 29
+   "items": 29,
+   "recent": 29,
+   "newest": "2026-10-29T14:49:25.000Z"
   },
   {
    "country": "uk",
@@ -243,7 +301,9 @@
    "source": "BBC",
    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
    "ok": true,
-   "items": 20
+   "items": 20,
+   "recent": 9,
+   "newest": "2026-10-29T09:31:44.000Z"
   },
   {
    "country": "uk",
@@ -251,7 +311,9 @@
    "source": "The Guardian",
    "url": "https://www.theguardian.com/society/rss",
    "ok": true,
-   "items": 32
+   "items": 32,
+   "recent": 24,
+   "newest": "2026-10-29T14:12:59.000Z"
   },
   {
    "country": "jp",
@@ -259,7 +321,9 @@
    "source": "NHK",
    "url": "https://www3.nhk.or.jp/rss/news/cat5.xml",
    "ok": true,
-   "items": 86
+   "items": 86,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "jp",
@@ -267,7 +331,9 @@
    "source": "NHK",
    "url": "https://www3.nhk.or.jp/rss/news/cat4.xml",
    "ok": true,
-   "items": 72
+   "items": 72,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "jp",
@@ -275,7 +341,9 @@
    "source": "NHK",
    "url": "https://www3.nhk.or.jp/rss/news/cat6.xml",
    "ok": true,
-   "items": 98
+   "items": 98,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "jp",
@@ -283,7 +351,9 @@
    "source": "NHK",
    "url": "https://www3.nhk.or.jp/rss/news/cat3.xml",
    "ok": true,
-   "items": 12
+   "items": 12,
+   "recent": 0,
+   "newest": null
   },
   {
    "country": "jp",
@@ -291,7 +361,9 @@
    "source": "NHK",
    "url": "https://www3.nhk.or.jp/rss/news/cat1.xml",
    "ok": true,
-   "items": 264
+   "items": 264,
+   "recent": 0,
+   "newest": null
   }
  ]
 }
