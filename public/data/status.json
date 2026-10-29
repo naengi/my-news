@@ -1,8 +1,8 @@
 {
- "at": "2026-10-29T15:09:45.195Z",
+ "at": "2026-10-29T15:13:59.242Z",
  "model": "claude-haiku-5-5",
- "summarized": 18,
- "tried": 18,
+ "summarized": 63,
+ "tried": 63,
  "failures": [],
  "feeds": [
   {
@@ -83,7 +83,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-10-29T14:53:12.000Z"
+   "newest": "2026-10-29T15:00:25.000Z"
   },
   {
    "country": "kr",
@@ -93,7 +93,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-10-29T11:39:07.000Z"
+   "newest": "2026-10-29T14:58:58.000Z"
   },
   {
    "country": "kr",
@@ -318,52 +318,112 @@
   {
    "country": "jp",
    "category": "economy",
-   "source": "NHK",
-   "url": "https://www3.nhk.or.jp/rss/news/cat5.xml",
+   "source": "朝日新聞",
+   "url": "https://www.asahi.com/rss/asahi/business.rdf",
    "ok": true,
-   "items": 86,
+   "items": 30,
+   "recent": 30,
+   "newest": "2026-10-29T13:31:58.000Z"
+  },
+  {
+   "country": "jp",
+   "category": "economy",
+   "source": "東洋経済",
+   "url": "https://toyokeizai.net/list/feed/rss",
+   "ok": true,
+   "items": 20,
+   "recent": 20,
+   "newest": "2026-10-29T10:00:00.000Z"
+  },
+  {
+   "country": "jp",
+   "category": "economy",
+   "source": "Nikkei Asia",
+   "url": "https://asia.nikkei.com/rss/feed/nar",
+   "ok": true,
+   "items": 50,
    "recent": 0,
    "newest": null
+  },
+  {
+   "country": "jp",
+   "category": "market",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.yahoo.co.jp/rss/topics/business.xml",
+   "ok": true,
+   "items": 8,
+   "recent": 8,
+   "newest": "2026-10-29T14:57:12.000Z"
   },
   {
    "country": "jp",
    "category": "politics",
-   "source": "NHK",
-   "url": "https://www3.nhk.or.jp/rss/news/cat4.xml",
+   "source": "朝日新聞",
+   "url": "https://www.asahi.com/rss/asahi/politics.rdf",
    "ok": true,
-   "items": 72,
-   "recent": 0,
-   "newest": null
+   "items": 20,
+   "recent": 20,
+   "newest": "2026-10-29T11:50:49.000Z"
+  },
+  {
+   "country": "jp",
+   "category": "politics",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.yahoo.co.jp/rss/topics/domestic.xml",
+   "ok": true,
+   "items": 8,
+   "recent": 8,
+   "newest": "2026-10-29T12:52:41.000Z"
   },
   {
    "country": "jp",
    "category": "world",
-   "source": "NHK",
-   "url": "https://www3.nhk.or.jp/rss/news/cat6.xml",
+   "source": "朝日新聞",
+   "url": "https://www.asahi.com/rss/asahi/international.rdf",
    "ok": true,
-   "items": 98,
-   "recent": 0,
-   "newest": null
+   "items": 30,
+   "recent": 30,
+   "newest": "2026-10-29T12:40:00.000Z"
+  },
+  {
+   "country": "jp",
+   "category": "world",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.yahoo.co.jp/rss/topics/world.xml",
+   "ok": true,
+   "items": 8,
+   "recent": 8,
+   "newest": "2026-10-29T14:02:50.000Z"
   },
   {
    "country": "jp",
    "category": "tech",
-   "source": "NHK",
-   "url": "https://www3.nhk.or.jp/rss/news/cat3.xml",
+   "source": "ITmedia",
+   "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
    "ok": true,
-   "items": 12,
-   "recent": 0,
-   "newest": null
+   "items": 50,
+   "recent": 50,
+   "newest": "2026-10-29T10:28:06.000Z"
+  },
+  {
+   "country": "jp",
+   "category": "tech",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.yahoo.co.jp/rss/topics/it.xml",
+   "ok": true,
+   "items": 8,
+   "recent": 8,
+   "newest": "2026-10-29T08:34:27.000Z"
   },
   {
    "country": "jp",
    "category": "society",
-   "source": "NHK",
-   "url": "https://www3.nhk.or.jp/rss/news/cat1.xml",
+   "source": "朝日新聞",
+   "url": "https://www.asahi.com/rss/asahi/national.rdf",
    "ok": true,
-   "items": 264,
-   "recent": 0,
-   "newest": null
+   "items": 40,
+   "recent": 40,
+   "newest": "2026-10-29T13:00:00.000Z"
   }
  ]
 }
