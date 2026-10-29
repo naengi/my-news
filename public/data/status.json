@@ -1,0 +1,323 @@
+{
+ "at": "2026-10-29T15:01:37.317Z",
+ "model": "claude-haiku-5-5",
+ "summarized": 0,
+ "tried": 120,
+ "failures": [
+  "Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for the \"Authorization\" header to be explicitly omitted"
+ ],
+ "feeds": [
+  {
+   "country": "kr",
+   "category": "economy",
+   "source": "연합뉴스",
+   "url": "https://www.yna.co.kr/rss/economy.xml",
+   "ok": true,
+   "items": 120
+  },
+  {
+   "country": "kr",
+   "category": "economy",
+   "source": "한겨레",
+   "url": "https://www.hani.co.kr/rss/economy/",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "kr",
+   "category": "economy",
+   "source": "한국경제",
+   "url": "https://www.hankyung.com/feed/economy",
+   "ok": false,
+   "error": "Status code 403"
+  },
+  {
+   "country": "kr",
+   "category": "economy",
+   "source": "매일경제",
+   "url": "https://www.mk.co.kr/rss/30100041/",
+   "ok": true,
+   "items": 50
+  },
+  {
+   "country": "kr",
+   "category": "market",
+   "source": "연합뉴스",
+   "url": "https://www.yna.co.kr/rss/market.xml",
+   "ok": true,
+   "items": 120
+  },
+  {
+   "country": "kr",
+   "category": "market",
+   "source": "한국경제",
+   "url": "https://www.hankyung.com/feed/finance",
+   "ok": false,
+   "error": "Status code 403"
+  },
+  {
+   "country": "kr",
+   "category": "market",
+   "source": "매일경제",
+   "url": "https://www.mk.co.kr/rss/50200011/",
+   "ok": true,
+   "items": 50
+  },
+  {
+   "country": "kr",
+   "category": "politics",
+   "source": "연합뉴스",
+   "url": "https://www.yna.co.kr/rss/politics.xml",
+   "ok": true,
+   "items": 120
+  },
+  {
+   "country": "kr",
+   "category": "politics",
+   "source": "한겨레",
+   "url": "https://www.hani.co.kr/rss/politics/",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "kr",
+   "category": "world",
+   "source": "연합뉴스",
+   "url": "https://www.yna.co.kr/rss/international.xml",
+   "ok": true,
+   "items": 120
+  },
+  {
+   "country": "kr",
+   "category": "tech",
+   "source": "연합뉴스",
+   "url": "https://www.yna.co.kr/rss/industry.xml",
+   "ok": true,
+   "items": 120
+  },
+  {
+   "country": "kr",
+   "category": "tech",
+   "source": "한겨레",
+   "url": "https://www.hani.co.kr/rss/science/",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "kr",
+   "category": "tech",
+   "source": "한국경제",
+   "url": "https://www.hankyung.com/feed/it",
+   "ok": false,
+   "error": "Status code 403"
+  },
+  {
+   "country": "kr",
+   "category": "society",
+   "source": "연합뉴스",
+   "url": "https://www.yna.co.kr/rss/society.xml",
+   "ok": true,
+   "items": 120
+  },
+  {
+   "country": "kr",
+   "category": "society",
+   "source": "한겨레",
+   "url": "https://www.hani.co.kr/rss/society/",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "us",
+   "category": "economy",
+   "source": "NPR",
+   "url": "https://feeds.npr.org/1006/rss.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "country": "us",
+   "category": "economy",
+   "source": "The New York Times",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+   "ok": true,
+   "items": 50
+  },
+  {
+   "country": "us",
+   "category": "economy",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "us",
+   "category": "market",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "us",
+   "category": "market",
+   "source": "MarketWatch",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "country": "us",
+   "category": "politics",
+   "source": "NPR",
+   "url": "https://feeds.npr.org/1014/rss.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "country": "us",
+   "category": "politics",
+   "source": "The New York Times",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+   "ok": true,
+   "items": 22
+  },
+  {
+   "country": "us",
+   "category": "world",
+   "source": "NPR",
+   "url": "https://feeds.npr.org/1004/rss.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "country": "us",
+   "category": "tech",
+   "source": "NPR",
+   "url": "https://feeds.npr.org/1019/rss.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "country": "us",
+   "category": "tech",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/rss/index.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "country": "us",
+   "category": "society",
+   "source": "NPR",
+   "url": "https://feeds.npr.org/1003/rss.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "country": "uk",
+   "category": "economy",
+   "source": "BBC",
+   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+   "ok": true,
+   "items": 42
+  },
+  {
+   "country": "uk",
+   "category": "economy",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/uk/business/rss",
+   "ok": true,
+   "items": 46
+  },
+  {
+   "country": "uk",
+   "category": "market",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/stock-markets/rss",
+   "ok": true,
+   "items": 20
+  },
+  {
+   "country": "uk",
+   "category": "politics",
+   "source": "BBC",
+   "url": "https://feeds.bbci.co.uk/news/politics/rss.xml",
+   "ok": true,
+   "items": 61
+  },
+  {
+   "country": "uk",
+   "category": "politics",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/rss",
+   "ok": true,
+   "items": 21
+  },
+  {
+   "country": "uk",
+   "category": "world",
+   "source": "BBC",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "ok": true,
+   "items": 29
+  },
+  {
+   "country": "uk",
+   "category": "tech",
+   "source": "BBC",
+   "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+   "ok": true,
+   "items": 20
+  },
+  {
+   "country": "uk",
+   "category": "society",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/society/rss",
+   "ok": true,
+   "items": 32
+  },
+  {
+   "country": "jp",
+   "category": "economy",
+   "source": "NHK",
+   "url": "https://www3.nhk.or.jp/rss/news/cat5.xml",
+   "ok": true,
+   "items": 86
+  },
+  {
+   "country": "jp",
+   "category": "politics",
+   "source": "NHK",
+   "url": "https://www3.nhk.or.jp/rss/news/cat4.xml",
+   "ok": true,
+   "items": 72
+  },
+  {
+   "country": "jp",
+   "category": "world",
+   "source": "NHK",
+   "url": "https://www3.nhk.or.jp/rss/news/cat6.xml",
+   "ok": true,
+   "items": 98
+  },
+  {
+   "country": "jp",
+   "category": "tech",
+   "source": "NHK",
+   "url": "https://www3.nhk.or.jp/rss/news/cat3.xml",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "country": "jp",
+   "category": "society",
+   "source": "NHK",
+   "url": "https://www3.nhk.or.jp/rss/news/cat1.xml",
+   "ok": true,
+   "items": 264
+  }
+ ]
+}
