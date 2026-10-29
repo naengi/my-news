@@ -237,32 +237,68 @@
     {
       "country": "jp",
       "category": "economy",
-      "source": "NHK",
-      "url": "https://www3.nhk.or.jp/rss/news/cat5.xml"
+      "source": "朝日新聞",
+      "url": "https://www.asahi.com/rss/asahi/business.rdf"
+    },
+    {
+      "country": "jp",
+      "category": "economy",
+      "source": "東洋経済",
+      "url": "https://toyokeizai.net/list/feed/rss"
+    },
+    {
+      "country": "jp",
+      "category": "economy",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/rss/feed/nar"
+    },
+    {
+      "country": "jp",
+      "category": "market",
+      "source": "Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/rss/topics/business.xml"
     },
     {
       "country": "jp",
       "category": "politics",
-      "source": "NHK",
-      "url": "https://www3.nhk.or.jp/rss/news/cat4.xml"
+      "source": "朝日新聞",
+      "url": "https://www.asahi.com/rss/asahi/politics.rdf"
+    },
+    {
+      "country": "jp",
+      "category": "politics",
+      "source": "Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/rss/topics/domestic.xml"
     },
     {
       "country": "jp",
       "category": "world",
-      "source": "NHK",
-      "url": "https://www3.nhk.or.jp/rss/news/cat6.xml"
+      "source": "朝日新聞",
+      "url": "https://www.asahi.com/rss/asahi/international.rdf"
+    },
+    {
+      "country": "jp",
+      "category": "world",
+      "source": "Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/rss/topics/world.xml"
     },
     {
       "country": "jp",
       "category": "tech",
-      "source": "NHK",
-      "url": "https://www3.nhk.or.jp/rss/news/cat3.xml"
+      "source": "ITmedia",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml"
+    },
+    {
+      "country": "jp",
+      "category": "tech",
+      "source": "Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/rss/topics/it.xml"
     },
     {
       "country": "jp",
       "category": "society",
-      "source": "NHK",
-      "url": "https://www3.nhk.or.jp/rss/news/cat1.xml"
+      "source": "朝日新聞",
+      "url": "https://www.asahi.com/rss/asahi/national.rdf"
     }
   ],
   "perFeed": 8,
@@ -279,6 +315,10 @@
     "The Verge": 3,
     "BBC": 1,
     "The Guardian": 2,
-    "NHK": 1
+    "朝日新聞": 1,
+    "Nikkei Asia": 1,
+    "東洋経済": 2,
+    "ITmedia": 2,
+    "Yahoo!ニュース": 3
   }
 }
