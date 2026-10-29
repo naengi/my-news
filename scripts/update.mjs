@@ -150,6 +150,7 @@ const dupes = new Map(Object.entries(await readJson(dupesFile, {})));
 
 // 2) RSS 수집
 const candidates = [];
+const feedStatus = [];
 for (const feed of config.feeds) {
   try {
     const parsed = await parser.parseURL(feed.url);
@@ -168,8 +169,10 @@ for (const feed of config.feeds) {
       });
     }
     console.log(`✓ ${feed.source} ${feed.country}/${feed.category}`);
+    feedStatus.push({ ...feed, ok: true, items: parsed.items.length });
   } catch (err) {
     console.warn(`✗ ${feed.source} ${feed.url}: ${err.message}`);
+    feedStatus.push({ ...feed, ok: false, error: err.message });
   }
 }
 
@@ -222,6 +225,7 @@ console.log(`새 기사 ${fresh.length}개 요약 시작 (모델: ${MODEL})`);
 
 // 3) 본문 추출 + 요약·번역
 let done = 0;
+const failures = [];
 await pool(fresh, CONCURRENCY, async (item) => {
   try {
     const body = await extractBody(item.link, item.snippet);
@@ -246,6 +250,7 @@ await pool(fresh, CONCURRENCY, async (item) => {
     done++;
   } catch (err) {
     console.warn(`  요약 실패: ${item.link} (${err.message})`);
+    failures.push(err.message);
   }
 });
 console.log(`요약 완료 ${done}/${fresh.length}`);
@@ -265,6 +270,11 @@ for (const c of config.countries) {
     .sort((x, y) => y.publishedAt.localeCompare(x.publishedAt));
   await fs.writeFile(path.join(DATA_DIR, `${c.id}.json`), JSON.stringify({ articles }));
 }
+// 점검용 기록 (어떤 피드가 안 되는지, 요약이 왜 실패했는지)
+await fs.writeFile(
+  path.join(DATA_DIR, "status.json"),
+  JSON.stringify({ at: new Date().toISOString(), model: MODEL, summarized: done, tried: fresh.length, failures: [...new Set(failures)].slice(0, 5), feeds: feedStatus }, null, 1),
+);
 for (const [link, at] of dupes) if (now - new Date(at).getTime() > MAX_AGE_MS) dupes.delete(link);
 await fs.writeFile(dupesFile, JSON.stringify(Object.fromEntries(dupes)));
 await fs.writeFile(
