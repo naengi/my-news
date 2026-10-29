@@ -63,12 +63,6 @@
     {
       "country": "kr",
       "category": "economy",
-      "source": "한국경제",
-      "url": "https://www.hankyung.com/feed/economy"
-    },
-    {
-      "country": "kr",
-      "category": "economy",
       "source": "매일경제",
       "url": "https://www.mk.co.kr/rss/30100041/"
     },
@@ -77,12 +71,6 @@
       "category": "market",
       "source": "연합뉴스",
       "url": "https://www.yna.co.kr/rss/market.xml"
-    },
-    {
-      "country": "kr",
-      "category": "market",
-      "source": "한국경제",
-      "url": "https://www.hankyung.com/feed/finance"
     },
     {
       "country": "kr",
@@ -119,12 +107,6 @@
       "category": "tech",
       "source": "한겨레",
       "url": "https://www.hani.co.kr/rss/science/"
-    },
-    {
-      "country": "kr",
-      "category": "tech",
-      "source": "한국경제",
-      "url": "https://www.hankyung.com/feed/it"
     },
     {
       "country": "kr",
@@ -289,7 +271,6 @@
     "_설명": "숫자가 작을수록 신뢰도가 높은 언론사. 같은 소식이 여러 곳에 실리면 숫자가 가장 작은 곳의 기사를 요약함",
     "연합뉴스": 1,
     "한겨레": 2,
-    "한국경제": 2,
     "매일경제": 2,
     "The New York Times": 1,
     "NPR": 1,
