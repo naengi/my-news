@@ -1,11 +1,9 @@
 {
- "at": "2026-10-29T15:01:37.317Z",
+ "at": "2026-10-29T15:05:27.892Z",
  "model": "claude-haiku-5-5",
- "summarized": 0,
+ "summarized": 120,
  "tried": 120,
- "failures": [
-  "Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for the \"Authorization\" header to be explicitly omitted"
- ],
+ "failures": [],
  "feeds": [
   {
    "country": "kr",
@@ -26,14 +24,6 @@
   {
    "country": "kr",
    "category": "economy",
-   "source": "한국경제",
-   "url": "https://www.hankyung.com/feed/economy",
-   "ok": false,
-   "error": "Status code 403"
-  },
-  {
-   "country": "kr",
-   "category": "economy",
    "source": "매일경제",
    "url": "https://www.mk.co.kr/rss/30100041/",
    "ok": true,
@@ -46,14 +36,6 @@
    "url": "https://www.yna.co.kr/rss/market.xml",
    "ok": true,
    "items": 120
-  },
-  {
-   "country": "kr",
-   "category": "market",
-   "source": "한국경제",
-   "url": "https://www.hankyung.com/feed/finance",
-   "ok": false,
-   "error": "Status code 403"
   },
   {
    "country": "kr",
@@ -102,14 +84,6 @@
    "url": "https://www.hani.co.kr/rss/science/",
    "ok": true,
    "items": 30
-  },
-  {
-   "country": "kr",
-   "category": "tech",
-   "source": "한국경제",
-   "url": "https://www.hankyung.com/feed/it",
-   "ok": false,
-   "error": "Status code 403"
   },
   {
    "country": "kr",
@@ -181,7 +155,7 @@
    "source": "The New York Times",
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
    "ok": true,
-   "items": 22
+   "items": 23
   },
   {
    "country": "us",
