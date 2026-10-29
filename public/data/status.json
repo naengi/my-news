@@ -1,8 +1,8 @@
 {
- "at": "2026-10-29T15:05:27.892Z",
+ "at": "2026-10-29T15:08:00.313Z",
  "model": "claude-haiku-5-5",
- "summarized": 120,
- "tried": 120,
+ "summarized": 81,
+ "tried": 81,
  "failures": [],
  "feeds": [
   {
