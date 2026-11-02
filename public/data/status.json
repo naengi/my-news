@@ -1,8 +1,8 @@
 {
- "at": "2026-11-01T21:39:20.436Z",
+ "at": "2026-11-02T01:14:22.802Z",
  "model": "claude-haiku-5-5",
- "summarized": 52,
- "tried": 52,
+ "summarized": 87,
+ "tried": 87,
  "failures": [],
  "feeds": [
   {
@@ -13,7 +13,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-11-01T21:11:01.000Z"
+   "newest": "2026-11-02T01:06:19.000Z"
   },
   {
    "country": "kr",
@@ -33,7 +33,7 @@
    "ok": true,
    "items": 50,
    "recent": 50,
-   "newest": "2026-11-01T21:10:56.000Z"
+   "newest": "2026-11-02T00:52:17.000Z"
   },
   {
    "country": "kr",
@@ -43,7 +43,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-11-01T21:05:00.000Z"
+   "newest": "2026-11-02T01:06:43.000Z"
   },
   {
    "country": "kr",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 50,
    "recent": 50,
-   "newest": "2026-11-01T21:03:31.000Z"
+   "newest": "2026-11-02T01:04:08.000Z"
   },
   {
    "country": "kr",
@@ -63,7 +63,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-11-01T20:00:01.000Z"
+   "newest": "2026-11-02T01:07:38.000Z"
   },
   {
    "country": "kr",
@@ -83,7 +83,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-11-01T21:02:14.000Z"
+   "newest": "2026-11-02T01:07:18.000Z"
   },
   {
    "country": "kr",
@@ -93,7 +93,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-11-01T21:00:06.000Z"
+   "newest": "2026-11-02T01:06:19.000Z"
   },
   {
    "country": "kr",
@@ -113,7 +113,7 @@
    "ok": true,
    "items": 120,
    "recent": 120,
-   "newest": "2026-11-01T21:27:28.000Z"
+   "newest": "2026-11-02T01:07:25.000Z"
   },
   {
    "country": "kr",
@@ -142,7 +142,7 @@
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
    "ok": true,
    "items": 50,
-   "recent": 35,
+   "recent": 34,
    "newest": "2026-11-01T18:28:24.000Z"
   },
   {
@@ -183,7 +183,7 @@
    "ok": true,
    "items": 10,
    "recent": 10,
-   "newest": "2026-11-01T19:49:15.000Z"
+   "newest": "2026-11-01T22:22:12.000Z"
   },
   {
    "country": "us",
@@ -193,7 +193,7 @@
    "ok": true,
    "items": 20,
    "recent": 20,
-   "newest": "2026-11-01T19:58:02.000Z"
+   "newest": "2026-11-02T01:06:32.000Z"
   },
   {
    "country": "us",
@@ -202,8 +202,8 @@
    "url": "https://feeds.npr.org/1004/rss.xml",
    "ok": true,
    "items": 10,
-   "recent": 9,
-   "newest": "2026-11-01T13:15:28.000Z"
+   "recent": 10,
+   "newest": "2026-11-01T22:30:00.000Z"
   },
   {
    "country": "us",
@@ -233,7 +233,7 @@
    "ok": true,
    "items": 10,
    "recent": 10,
-   "newest": "2026-11-01T18:27:06.000Z"
+   "newest": "2026-11-01T22:25:28.000Z"
   },
   {
    "country": "uk",
@@ -241,9 +241,9 @@
    "source": "BBC",
    "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
    "ok": true,
-   "items": 53,
-   "recent": 21,
-   "newest": "2026-11-01T16:57:14.000Z"
+   "items": 46,
+   "recent": 23,
+   "newest": "2026-11-02T00:43:35.000Z"
   },
   {
    "country": "uk",
@@ -283,7 +283,7 @@
    "ok": true,
    "items": 21,
    "recent": 19,
-   "newest": "2026-11-01T19:50:39.000Z"
+   "newest": "2026-11-01T22:26:11.000Z"
   },
   {
    "country": "uk",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 30,
    "recent": 30,
-   "newest": "2026-11-01T21:16:45.000Z"
+   "newest": "2026-11-02T00:25:12.000Z"
   },
   {
    "country": "uk",
@@ -302,8 +302,8 @@
    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
    "ok": true,
    "items": 21,
-   "recent": 8,
-   "newest": "2026-11-01T01:37:26.000Z"
+   "recent": 9,
+   "newest": "2026-11-02T00:43:35.000Z"
   },
   {
    "country": "uk",
@@ -321,9 +321,9 @@
    "source": "朝日新聞",
    "url": "https://www.asahi.com/rss/asahi/business.rdf",
    "ok": true,
-   "items": 21,
-   "recent": 21,
-   "newest": "2026-11-01T21:00:00.000Z"
+   "items": 17,
+   "recent": 17,
+   "newest": "2026-11-01T22:00:00.000Z"
   },
   {
    "country": "jp",
@@ -333,7 +333,7 @@
    "ok": true,
    "items": 20,
    "recent": 20,
-   "newest": "2026-11-01T21:30:00.000Z"
+   "newest": "2026-11-02T01:00:00.000Z"
   },
   {
    "country": "jp",
@@ -353,7 +353,7 @@
    "ok": true,
    "items": 8,
    "recent": 8,
-   "newest": "2026-11-01T12:59:35.000Z"
+   "newest": "2026-11-02T00:21:39.000Z"
   },
   {
    "country": "jp",
@@ -361,9 +361,9 @@
    "source": "朝日新聞",
    "url": "https://www.asahi.com/rss/asahi/politics.rdf",
    "ok": true,
-   "items": 14,
-   "recent": 14,
-   "newest": "2026-11-01T21:00:00.000Z"
+   "items": 16,
+   "recent": 16,
+   "newest": "2026-11-02T00:00:00.000Z"
   },
   {
    "country": "jp",
@@ -373,7 +373,7 @@
    "ok": true,
    "items": 8,
    "recent": 8,
-   "newest": "2026-11-01T14:25:40.000Z"
+   "newest": "2026-11-01T23:21:23.000Z"
   },
   {
    "country": "jp",
@@ -381,9 +381,9 @@
    "source": "朝日新聞",
    "url": "https://www.asahi.com/rss/asahi/international.rdf",
    "ok": true,
-   "items": 18,
-   "recent": 18,
-   "newest": "2026-11-01T21:00:00.000Z"
+   "items": 17,
+   "recent": 17,
+   "newest": "2026-11-02T00:33:47.000Z"
   },
   {
    "country": "jp",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 8,
    "recent": 8,
-   "newest": "2026-11-01T10:33:29.000Z"
+   "newest": "2026-11-02T00:50:13.000Z"
   },
   {
    "country": "jp",
@@ -402,8 +402,8 @@
    "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
    "ok": true,
    "items": 50,
-   "recent": 21,
-   "newest": "2026-10-31T23:31:07.000Z"
+   "recent": 20,
+   "newest": "2026-11-01T23:59:31.000Z"
   },
   {
    "country": "jp",
@@ -413,7 +413,7 @@
    "ok": true,
    "items": 8,
    "recent": 8,
-   "newest": "2026-11-01T13:01:10.000Z"
+   "newest": "2026-11-02T00:48:42.000Z"
   },
   {
    "country": "jp",
@@ -423,7 +423,7 @@
    "ok": true,
    "items": 24,
    "recent": 24,
-   "newest": "2026-11-01T20:00:00.000Z"
+   "newest": "2026-11-02T00:10:00.000Z"
   }
  ]
 }
